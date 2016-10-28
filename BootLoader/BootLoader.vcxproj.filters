@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BootMain">
+      <UniqueIdentifier>{543a470c-d84c-40fb-b4ec-a05ac65a4945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDisplay">
+      <UniqueIdentifier>{c3c7fbff-7496-4fef-847b-6cf39b22a453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CString">
+      <UniqueIdentifier>{3c5f5961-e669-4190-8822-0192e5a8630b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{30c5f49d-39a7-4d40-b7a0-b68ad343e69d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BootMain.cpp">
+      <Filter>BootMain</Filter>
+    </ClCompile>
+    <ClCompile Include="CDisplay.cpp">
+      <Filter>CDisplay</Filter>
+    </ClCompile>
+    <ClCompile Include="CString.cpp">
+      <Filter>CString</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build.bat">
+      <Filter>BootMain</Filter>
+    </None>
+    <None Include="StartPoint.asm">
+      <Filter>BootMain</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CDisplay.h">
+      <Filter>CDisplay</Filter>
+    </ClInclude>
+    <ClInclude Include="CString.h">
+      <Filter>CString</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
